@@ -1,0 +1,145 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ body {
+  font-family: 'Raleway', sans-serif; 
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #55A5EC;
+}
+/* dimensione barra menù nello schermo */
+nav .brand-logo.center {
+    padding: 0 50px;
+}
+
+nav .brand-logo {
+font-family: 'Great Vibes', cursive;
+}
+
+.nav-wrapper {
+    padding: 0 50px;
+}
+nav.title{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #EFBE8D;
+}
+
+.parallax-container {
+  min-height: 480px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.section-intro{
+    height: 100%;
+    width: 100%;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+ .header {
+  margin-top: 20%;
+  }
+
+ .header-subtitle {
+  margin-top: 16%;
+     font-size: 1.7em;
+  }
+.material-icons{
+    color: #FB8340;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+
+  }
+    .nav-wrapper {
+    padding: 0 10px;
+    }
+
+}
+
+.col-servizio {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.icon-block {
+  padding: 0 20px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+#servizio h5 {
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+
+.section-registrazione{
+    height: 100%;
+    width: 100%;
+}
+
+.registrazione-icon{
+    font-size: 6em;
+    margin-top: 60px;
+    color:#F2F2F2;
+}
+.registrazione-subtitle{
+   font-size: 1.3em;
+    margin-top: 5%;
+}
+
+.btn-registrazione{
+    width: 100%;
+}
+.ospita-icon{
+    color:#FB8340;
+    font-size: 7em;
+    margin-top: -1px;
+}
+.ospita-subtitle{
+   font-size: 1.3em;
+    margin-top: 5%;
+    line-height: 2em;
+}
+.btn-ospita{
+    width: 100%;
+}
+footer.page-footer {
+  margin: 0;
+  background-color: #FB8340;
+}
+.social-icon{
+    font-size: 2.5em;
+    color: #fff;
+    padding: 0 20px;
+}
+.social-icon:hover{
+    color: #55A5EC;
+}
